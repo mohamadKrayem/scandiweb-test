@@ -1,0 +1,61 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.container{
+  padding: 8px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 95vh;
+}
+
+.body{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: auto;
+  gap: 4%;
+}
+
+.product{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 280px;
+  height: 192px;
+  margin: 20px 0;
+
+}
+
+.delete-checkbox{
+  align-self: flex-start;
+  width: 20px;
+  height: 20px;
+}
+
+.homeButtons{
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Button{
+  width: 70px;
+  height: 30px;
+  background-color: unset;
+}
+
+#delete-product-btn{
+  width: 130px;
+}
+
+.footer{
+  text-align: center;
+  font-size: 20px;
+}
